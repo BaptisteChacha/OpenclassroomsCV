@@ -36,7 +36,6 @@
 .left-column
 {
     text-align: center;
-    color: blueviolet;
     background-color: #feca07;
 }
 main
@@ -48,6 +47,7 @@ main
 .normalize
 {
     padding-top: 10%;
+    font-size: 5px;
 }
 .left-column-title
 {
@@ -74,6 +74,8 @@ main
 .Soulignement
 {
     border-bottom: 2px solid #feca07;
+    margin-bottom: 50px;
+    margin-top: 15px;
 }
 .title .fas .far
 {
@@ -102,4 +104,30 @@ strong
 .city
 {
     padding:0;
+    margin-left: 21px;
+}
+.fa-graduation-cap 
+{
+    color: yellow;
+}
+.fa-briefcase
+{
+    color: yellow;
+}
+.fa-marker
+{
+    color: yellow;
+}
+.fa-dot-circle
+{
+    color: yellow;
+    font-size: 17px;
+}
+ul li:before
+{   
+    color: yellow;
+}
+.center
+{
+    text-align: center;
 }
