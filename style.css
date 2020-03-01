@@ -1,7 +1,6 @@
 .row
 {
     font-size: 16px;
-
 }
 .Coordonnees
 {
@@ -28,7 +27,6 @@
 .cv-title
 {
     margin-top: 50px;
-    margin-left: 50px;
     font-size: 50px;
 }
 .cv-title-firstname
@@ -61,18 +59,17 @@ main
 {
     border-bottom: 2px solid #feca07;
     text-decoration-color: #feca07;
-    text-underline-offset: 100px;
 }
 .subtitle
 {
-    margin-top: -10px;
-    margin-left: 67px ;
     margin-bottom: 13%;
+    font-size: 30px;
 }
 .title
 {
-    margin-left: 50px;
     text-decoration-color: #feca07;
+    font-size: 25px;
+    padding-bottom: 15px;
 }
 .Soulignement
 {
@@ -84,10 +81,11 @@ main
     text-decoration: underline;
     text-decoration-color: #feca07;
 }
-ul li
+ul
 {
-    padding-left: 6x;
     list-style-position: inside;
+    padding: 0;
+    margin: 0;
 }
 .A_propos
 {
@@ -96,4 +94,12 @@ ul li
 strong
 {
     text-transform: uppercase;
+}
+.right-column
+{
+    padding-left: 50px;
+}
+.city
+{
+    padding:0;
 }
