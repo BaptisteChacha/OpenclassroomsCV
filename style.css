@@ -108,26 +108,37 @@ strong
 }
 .fa-graduation-cap 
 {
-    color: yellow;
+    color: #feca07;
 }
 .fa-briefcase
 {
-    color: yellow;
+    color: #feca07;
 }
 .fa-marker
 {
-    color: yellow;
+    color: #feca07;
 }
 .fa-dot-circle
 {
-    color: yellow;
+    color: #feca07;
     font-size: 17px;
-}
-ul li:before
-{   
-    color: yellow;
 }
 .center
 {
     text-align: center;
+}
+.police
+{
+    font-family: 'Times New Roman';
+    font-size: small;
+}
+
+.fa-circle
+{
+    color: #feca07;
+    font-size: 10px;
+}
+.city
+{
+    padding-left: 18px;
 }
