@@ -29,56 +29,62 @@
     <main class="container p-0">
       <div class="row no-gutters">
         <!-- Définition des dimensiosn bootstrap-->
-        <div class="col-sm-5 col-md-6 col-lg-4 left-column ">
+        <div class="col-sm-12 col-md-4 left-column ">
           <!-- Insertion de l'image-->
           <img src="Photo.jpg" alt="Photo" class="cv-picture" />
-          <div class="left-column-title">
-            <h2>Contact</h2>
-          </div>
+          <div class="contact-container">
+            <div class="left-column-title">
+              <h2>Contact</h2>
+            </div>
 
-          <!-- Création de la partie coordonnées-->
-          <div class="Coordonnees">
-            <div class="col-sm-6 col-md-8 col-lg-12">
-              Adresse<br />
-              Paris,France<br />
-              <br />
-              Téléphone<br />
-              06 69 15 75 06<br />
-              <br />
-              Email<br />
-              baptiste.chalon@gmail.com <br />
-              <br />
-              Site web<br />
-              www.name.com<br />
-              <br />
-              Skype<br />
-              baptiste.chalon@yahoo.com<br />
+            <!-- Création de la partie coordonnées-->
+            <div class="Coordonnees">
+              <div class="col-sm-6 col-md-8 col-lg-12">
+                Adresse<br />
+                Paris,France<br />
+                <br />
+                Téléphone<br />
+                06 69 15 75 06<br />
+                <br />
+                Email<br />
+                baptiste.chalon@gmail.com <br />
+                <br />
+                Site web<br />
+                www.name.com<br />
+                <br />
+                Skype<br />
+                baptiste.chalon@yahoo.com<br />
+              </div>
             </div>
           </div>
           <!-- Création de la partie a propos-->
-          <div class="left-column-title">
-            <h2>à propos de moi</h2>
-            <div class="A_propos"></div>
+          <div class="about-container">
+            <div class="left-column-title">
+              <h2>à propos de moi</h2>
+            </div>
+            <div class="A_propos">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam consectetur voluptatum a quia? Animi, maxime
+                veritatis! Officiis explicabo possimus obcaecati a doloremque,
+                et, odio saepe harum quae tempora minus nulla.
+              </p>
+            </div>
           </div>
-          <span class="center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            consectetur voluptatum a quia? Animi, maxime veritatis! Officiis
-            explicabo possimus obcaecati a doloremque, et, odio saepe harum quae
-            tempora minus nulla.
-          </span>
-
           <!--Création de la partie loisirs-->
-          <div class="left-column-title">
-            <h2>Loisirs</h2>
+          <div class="loisir-container">
+            <div class="left-column-title">
+              <h2>Loisirs</h2>
+            </div>
+            <i class="fas fa-music"></i>
+            <i class="fas fa-book-open"></i>
+            <i class="far fa-futbol"></i>
+            <i class="fas fa-desktop"></i>
           </div>
-          <i class="fas fa-music"></i>
-          <i class="fas fa-book-open"></i>
-          <i class="far fa-futbol"></i>
-          <i class="fas fa-desktop"></i>
         </div>
 
         <!--Création de titre et poste-->
-        <div class="col-sm-6 col-md-6 col-lg-8">
+        <div class="col-sm-12 col-md-8">
           <div class="right-column">
             <div class="cv-title">
               <span class="cv-title-firstname">BAPTISTE</span> CHALON
@@ -88,7 +94,7 @@
             </div>
 
             <!--Partie Formation-->
-            <div class="col-sm-2 col-md-4 col-lg-12">
+            <div class="col-12">
               <div class="Soulignement">
                 <div class="title">
                   <i class="fas fa-graduation-cap"></i>
@@ -98,21 +104,24 @@
 
               <!--Nouvelle ligne par formation-->
               <div class="row">
-                <div class="col-sm-2 col-md-4 col-lg-4">
+                <div class="col-4">
                   <ul class="fa-ul">
                     <li>
                       <span class="fa-li">
-                        <i class="far fa-dot-circle"></i></span>
-                        <strong>
-                      2016-2018
+                        <i class="far fa-dot-circle"></i
+                      ></span>
+                      <strong>
+                        2016-2018
+                      </strong>
                     </li>
                   </ul>
                   <p class="city">
-                    Paris
+                    <strong>
+                      Paris
+                    </strong>
                   </p>
-                </strong>
                 </div>
-                <div class="col-sm-2 col-md-4 col-lg-8">
+                <div class="col-8">
                   <strong>Openclassrooms</strong>
                   <div class="police">
                     <p>Junior web developer</p>
@@ -126,19 +135,22 @@
                   </div>
                 </div>
 
-                <div class="col-sm-2 col-md-4 col-lg-4">
+                <div class="col-4">
                   <ul class="fa-ul">
-                    <li><span class="fa-li">
-                      <i class="fas fa-circle"></i></span>
+                    <li>
+                      <span class="fa-li"> <i class="fas fa-circle"></i></span>
                       <strong>
-                    2014-2016</li>
+                        2014-2016
+                      </strong>
+                    </li>
                   </ul>
                   <p class="city">
-                    Orleans
+                    <strong>
+                      Orleans
+                    </strong>
                   </p>
-                </strong>
                 </div>
-                <div class="col-sm-2 col-md-4 col-lg-8">
+                <div class="col-8">
                   <strong>University of Lorem</strong> <br />
                   <div class="police">
                     <p>Graphic Designer</p>
@@ -155,7 +167,7 @@
             </div>
 
             <!--Partie Experience professionnel-->
-            <div class="col-sm-2 col-md-4 col-lg-12">
+            <div class="col-12">
               <div class="Soulignement">
                 <div class="title">
                   <i class="fas fa-briefcase"></i>
@@ -164,21 +176,24 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-2 col-md-4 col-lg-5">
+                <div class="col-4">
                   <ul class="fa-ul">
                     <li>
                       <span class="fa-li"
-                        ><i class="far fa-dot-circle"></i></span>
+                        ><i class="far fa-dot-circle"></i
+                      ></span>
                       <strong>
                         Mars 2018 - Poste actuel
+                      </strong>
                     </li>
                   </ul>
                   <p class="city">
-                    Paris
+                    <strong>
+                      Paris
+                    </strong>
                   </p>
-                </strong>
                 </div>
-                <div class=" col-sm-2 col-md-4 col-lg-7">
+                <div class=" col-8">
                   <div class="title-formation">
                     <strong>Openclassrooms</strong>
                   </div>
@@ -196,19 +211,22 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-2 col-md-4 col-lg-5">
+                <div class="col-4">
                   <ul class="fa-ul">
-                    <li><span class="fa-li">
-                      <i class="fas fa-circle"></i></span>
+                    <li>
+                      <span class="fa-li"> <i class="fas fa-circle"></i></span>
                       <strong>
-                    Mars 2018 - Poste actuel</li>
+                        Mars 2018 - Poste actuel
+                      </strong>
+                    </li>
                   </ul>
                   <p class="city">
-                    Paris
+                    <strong>
+                      Paris
+                    </strong>
                   </p>
-                </strong>
                 </div>
-                <div class="col-sm-2 col-md-4 col-lg-7">
+                <div class="col-8">
                   <div class="title-formation">
                     <strong>Openclassrooms</strong>
                   </div>
@@ -226,19 +244,22 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-2 col-md-4 col-lg-5">
+                <div class="col-4">
                   <ul class="fa-ul">
-                    <li><span class="fa-li">
-                      <i class="fas fa-circle"></i></span>
+                    <li>
+                      <span class="fa-li"> <i class="fas fa-circle"></i></span>
                       <strong>
-                    Mars 2018 - Poste actuel</li>
+                        Mars 2018 - Poste actuel
+                      </strong>
+                    </li>
                   </ul>
                   <p class="city">
-                    Paris
+                    <strong>
+                      Paris
+                    </strong>
                   </p>
-                </strong>
                 </div>
-                <div class="col-sm-2 col-md-4 col-lg-7">
+                <div class="col-8">
                   <div class="title-formation">
                     <strong>Openclassrooms</strong>
                   </div>
@@ -259,22 +280,23 @@
             <!--Partie Recommandations-->
             <div class="col-12">
               <div class="Soulignement">
+                
                 <div class="title">
                   <i class="fas fa-marker"></i> <strong>Recommandations</strong>
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-sm-2 col-md-4 col-lg-6">
+              <div class="row formation" >
+                <div class="col-sm-12 col-md-6">
                   <div class="title-formation">
                     <strong>Maxime kieman</strong>
                   </div>
                   <strong>Directeur, Mon agence</strong> <br />
                   <strong>Telephone:</strong> <br />
-                  email: name@mail.com
+                  email: name@mail.com <br />
                 </div>
 
-                <div class="col-sm-2 col-md-4 col-lg-6">
+                <div class="col-sm-12 col-md-6">
                   <div class="title-formation">
                     <strong>Maxime kieman</strong>
                   </div>

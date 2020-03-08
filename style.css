@@ -35,8 +35,29 @@
 }
 .left-column
 {
+
     text-align: center;
     background-color: #feca07;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 640px) 
+{
+    .left-column 
+    {
+        height: 100%;
+    }
+}
+.contact-container
+{
+    height: 25%;
+}
+.about-container
+{
+    height: 50%;
+}
+.loisir-container
+{
+    height: 25%;
 }
 main
 {
@@ -91,7 +112,8 @@ ul
 }
 .A_propos
 {
-    flex-grow: 1;
+
+        padding: 20px;
 }
 strong
 {
@@ -141,4 +163,8 @@ strong
 .city
 {
     padding-left: 18px;
+}
+.formation
+{
+    margin: 5px;
 }
