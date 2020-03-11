@@ -12,9 +12,9 @@
 .fas, .far
 {
     color: black;
-    font-size: 32px;
+    font-size: 50px;
     margin-right: 20px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .cv-picture
 {
@@ -57,7 +57,7 @@
 }
 .loisir-container
 {
-    height: 25%;
+    height: 258%;
 }
 main
 {
@@ -109,10 +109,10 @@ ul
     list-style-position: inside;
     padding: 0;
     margin: 0;
+    font-size: 12px;
 }
 .A_propos
 {
-
         padding: 20px;
 }
 strong
@@ -162,7 +162,8 @@ strong
 }
 .city
 {
-    padding-left: 18px;
+    padding-left: 10px;
+    font-size: 12px;
 }
 .formation
 {
