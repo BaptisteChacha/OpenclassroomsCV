@@ -45,7 +45,7 @@
   height: 50%;
 }
 .loisir-container {
-  height: 258%;
+  height: 25%;
 }
 main {
   border: 1px solid black;
@@ -91,6 +91,7 @@ ul {
 }
 .A_propos {
   padding: 20px;
+  padding-bottom: -60px;
 }
 strong {
   text-transform: uppercase;
