@@ -8,9 +8,6 @@
   font-size: 13px;
   padding-bottom: 100%;
 }
-.Coordonnees .ul{
-  list-style: none;
-}
 .fas,
 .far {
   color: black;
@@ -79,10 +76,19 @@ main {
   font-size: 25px;
   padding-bottom: 15px;
 }
-.Soulignement {
-  border-bottom: 2px solid #feca07;
-  margin-bottom: 30px;
+.article_title {
+  margin-bottom: 15px;
   margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.article_title_icon {
+  font-size: 30px;
+}
+
+hr {
+  border-top: 2px solid #feca07;
 }
 .title .fas .far {
   font-size: 5px;
@@ -97,7 +103,6 @@ ul {
 }
 .A_propos {
   padding: 20px;
-  padding-bottom: -60px;
 }
 strong {
   text-transform: uppercase;
@@ -141,4 +146,8 @@ strong {
 .formation {
   margin: 5px;
   margin-bottom: 50px;
+}
+.section-title {
+  font-weight: bold;
+  text-transform: uppercase;
 }
